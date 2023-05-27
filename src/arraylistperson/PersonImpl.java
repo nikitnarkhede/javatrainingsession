@@ -33,8 +33,8 @@ public class PersonImpl {
 		
 		for(int i =0 ; i<personObjList.size();i++) { 
 			if(personObjList.get(i).getName().startsWith("S") || personObjList.get(i).getName().startsWith("s")) {
-			System.out.println(personObjList.get(i).getName());
-			personObj1.add(personObjList.get(i));
+				System.out.println(personObjList.get(i).getName());
+				personObj1.add(personObjList.get(i));
 			}
 		}
 		

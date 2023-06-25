@@ -33,13 +33,3 @@ public class Hashmapcreate {
 
     }
 }
-class Sort implements Comparator<Order> {
-
-    // Method
-    // Sorting in ascending order of name
-    public int compare(Order a, Order b)
-    {
-
-        return a.orderDate.compareTo(b.orderDate);
-    }
-}
